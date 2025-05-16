@@ -34,7 +34,8 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
       
       <div className="flex flex-col items-center mb-8">
         <img
-          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          // src="./../assets/profile.jpg"
+          src="https://imgs.search.brave.com/YsirbWmT5SEoVg_f9IAnYmqkNQHPHT4ZcCxi_IETeYA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDYxNTk5/ODcuanBn"
           alt="User"
           className="w-24 h-24 rounded-full border-2 border-white/20 mb-4 object-cover"
         />
