@@ -6,7 +6,7 @@ interface LoginScreenProps {
 }
 
 const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
-  const [username, setUsername] = useState('guest');
+  const [username, setUsername] = useState('Your Love ');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -38,7 +38,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
           alt="User"
           className="w-24 h-24 rounded-full border-2 border-white/20 mb-4 object-cover"
         />
-        <h2 className="text-xl font-medium text-white">Portfolio User</h2>
+        <h2 className="text-xl font-medium text-white">Vivek Chauhan</h2>
       </div>
       
       <form onSubmit={handleSubmit} className="w-64">

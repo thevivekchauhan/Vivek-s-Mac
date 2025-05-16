@@ -31,25 +31,25 @@ const TerminalApp: React.FC = () => {
         // Auto-response after the echo command
         if (index === 3) {
           setTimeout(() => {
-            setLines(prevLines => [
+            setLines((prevLines) => [
               ...prevLines,
-              { text: 'Hello, I\'m a full-stack developer!', isCommand: false },
-              { text: '', isCommand: false },
-              { text: '~ $ ls -la skills', isCommand: true },
+              { text: "Hello, I'm Vivek Chauhan!", isCommand: false },
+              { text: "", isCommand: false },
+              { text: "~ $ ls - Welcome to my terminal!", isCommand: true },
             ]);
             
             // Skills response
             setTimeout(() => {
               setLines(prevLines => [
                 ...prevLines,
-                { text: 'total 16', isCommand: false },
+                // { text: 'total 16', isCommand: false },
                 { text: 'drwxr-xr-x  2 dev  staff  React       Advanced', isCommand: false },
+                { text: 'drwxr-xr-x  2 dev  staff  TypeScript  Intermediate', isCommand: false },
                 { text: 'drwxr-xr-x  2 dev  staff  JavaScript  Advanced', isCommand: false },
-                { text: 'drwxr-xr-x  2 dev  staff  TypeScript  Advanced', isCommand: false },
                 { text: 'drwxr-xr-x  2 dev  staff  Node.js     Intermediate', isCommand: false },
-                { text: 'drwxr-xr-x  2 dev  staff  Python      Intermediate', isCommand: false },
-                { text: 'drwxr-xr-x  2 dev  staff  AWS         Intermediate', isCommand: false },
-                { text: 'drwxr-xr-x  2 dev  staff  Docker      Intermediate', isCommand: false },
+                { text: 'drwxr-xr-x  2 dev  staff  MongoDB      Intermediate', isCommand: false },
+                // { text: 'drwxr-xr-x  2 dev  staff  AWS         Intermediate', isCommand: false },
+                // { text: 'drwxr-xr-x  2 dev  staff  Docker      Intermediate', isCommand: false },
                 { text: '', isCommand: false },
                 { text: '~ $ ', isCommand: true },
               ]);
@@ -162,16 +162,25 @@ const TerminalApp: React.FC = () => {
               { text: '~ $ ', isCommand: true },
             ]);
           } else if (command.includes('contact.json')) {
-            setLines(prevLines => [
+            setLines((prevLines) => [
               ...prevLines,
-              { text: '{', isCommand: false },
-              { text: '  "email": "developer@example.com",', isCommand: false },
-              { text: '  "github": "github.com/username",', isCommand: false },
-              { text: '  "linkedin": "linkedin.com/in/username",', isCommand: false },
-              { text: '  "twitter": "@username"', isCommand: false },
-              { text: '}', isCommand: false },
-              { text: '', isCommand: false },
-              { text: '~ $ ', isCommand: true },
+              { text: "{", isCommand: false },
+              {
+                text: '  "email": "thechauhanvivek@gmail.com",',
+                isCommand: false,
+              },
+              {
+                text: '  "github": "github.com/thevivekchauhan",',
+                isCommand: false,
+              },
+              {
+                text: '  "linkedin": "linkedin.com/in/thevivekchauhan",',
+                isCommand: false,
+              },
+              { text: '  "twitter": "@vivekchauhan005"', isCommand: false },
+              { text: "}", isCommand: false },
+              { text: "", isCommand: false },
+              { text: "~ $ ", isCommand: true },
             ]);
           } else {
             setLines(prevLines => [
@@ -199,31 +208,53 @@ const TerminalApp: React.FC = () => {
           break;
           
         case 'whoami':
-          setLines(prevLines => [
+          setLines((prevLines) => [
             ...prevLines,
-            { text: 'Full Stack Developer', isCommand: false },
-            { text: 'Portfolio User', isCommand: false },
-            { text: '', isCommand: false },
-            { text: '~ $ ', isCommand: true },
+            { text: "Vivek Chauhan", isCommand: false },
+            { text: "Full Stack Developer", isCommand: false },
+            { text: "You are in Vivek customized MAC.", isCommand: false },
+            // { text: "", isCommand: false },
+            { text: "~ $ ", isCommand: true },
           ]);
           break;
           
         case 'experience':
-          setLines(prevLines => [
+          setLines((prevLines) => [
             ...prevLines,
-            { text: '-- PROFESSIONAL EXPERIENCE --', isCommand: false },
-            { text: '', isCommand: false },
-            { text: 'Senior Developer | TechCorp | 2021 - Present', isCommand: false },
-            { text: '- Led frontend development for multiple enterprise applications', isCommand: false },
-            { text: '- Implemented CI/CD pipelines and testing strategies', isCommand: false },
-            { text: '- Mentored junior team members', isCommand: false },
-            { text: '', isCommand: false },
-            { text: 'Web Developer | StartupInc | 2018 - 2021', isCommand: false },
-            { text: '- Built responsive web applications using React', isCommand: false },
-            { text: '- Developed RESTful APIs with Node.js and Express', isCommand: false },
-            { text: '- Worked in an agile team environment', isCommand: false },
-            { text: '', isCommand: false },
-            { text: '~ $ ', isCommand: true },
+            { text: "-- PROFESSIONAL EXPERIENCE --", isCommand: false },
+            { text: "", isCommand: false },
+            {
+              text: "MERN Developer | iCoderz | 2025 - Present",
+              isCommand: false,
+            },
+            {
+              text: "- Developed a web application using React and Node.js",
+              isCommand: false,
+            },
+            {
+              text: "- Implemented RESTful APIs and integrated with MongoDB",
+              isCommand: false,
+            },
+            {
+              text: "- Implemented authentication and authorization using JWT",
+              isCommand: false,
+            },
+            { text: "", isCommand: false },
+            {
+              text: "Web Developer | BitBeast | Oct 2023 - Sep 2024",
+              isCommand: false,
+            },
+            {
+              text: "- Built responsive web applications using React",
+              isCommand: false,
+            },
+            {
+              text: "- Collaborated with designers to create user-friendly interfaces",
+              isCommand: false,
+            },
+            // { text: "- ", isCommand: false },
+            { text: "", isCommand: false },
+            { text: "~ $ ", isCommand: true },
           ]);
           break;
           
