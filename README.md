@@ -40,8 +40,6 @@
 
 
 
-git clone https://github.com/yourusername/vivek-s-mac.git
-```
 
 2. Install dependencies
 ```bash
