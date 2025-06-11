@@ -42,7 +42,6 @@
 
 
 
-```
 
 ### Visual Design
 - MACOS-inspired RealMACOS design
