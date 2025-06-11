@@ -42,7 +42,6 @@
 
 
 
-npm run dev
 ```
 
 ### Visual Design
