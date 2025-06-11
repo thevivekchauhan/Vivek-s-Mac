@@ -41,7 +41,6 @@
 
 
 
-2. Install dependencies
 ```bash
 cd vivek-s-mac
 npm install
