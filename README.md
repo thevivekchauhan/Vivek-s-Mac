@@ -41,7 +41,6 @@
 
 
 
-```bash
 cd vivek-s-mac
 npm install
 ```
