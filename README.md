@@ -42,7 +42,6 @@
 
 
 
-```bash
 npm run dev
 ```
 
