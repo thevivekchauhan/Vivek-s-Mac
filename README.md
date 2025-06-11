@@ -40,7 +40,6 @@
 
 
 
-1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/vivek-s-mac.git
 ```
