@@ -35,21 +35,12 @@
 - Tailwind CSS
 - Vercel (Deployment)
 
-
-
-
-
-
-
-
-
 ### Visual Design
 - MACOS-inspired RealMACOS design
 - Smooth animations for all interactions
 - Visual feedback for active/inactive states
 - Modern shadow effects
 - Clean and minimal interface
-
 
 ## 🚀 Deployment
 The application is deployed on Vercel and can be accessed at [vivekmac.vercel.app](https://vivekmac.vercel.app/)
