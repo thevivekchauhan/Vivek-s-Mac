@@ -38,7 +38,6 @@
 
 
 
-- npm or yarn
 
 ### Installation
 
