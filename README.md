@@ -1,4 +1,4 @@
-# Vivek's MAC
+# Vivek's MAC.
 
 <h1 align="center">
   <br>
@@ -8,9 +8,9 @@
 </h1>
 
 <p align="center"> 
-    <img src="./public/operating.png">
     <img src="./public/lock.png">
     <img src="./public/home.png">
+    <img src="./public/operating.png">
 </p>
 
 ## 🚀 Features
