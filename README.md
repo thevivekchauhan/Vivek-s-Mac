@@ -1,4 +1,4 @@
-# Vivek's MAC
+# Vivek's MAC.
 
 <h1 align="center">
   <br>
